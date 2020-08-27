@@ -2055,7 +2055,7 @@ input, select, textarea {
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #df7366;
+		background: #ff1616;
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -2176,7 +2176,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header.jpg");
+		background-image: url("../../images/careers_moving_forward_white_no_underline_large_website.png");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2196,9 +2196,10 @@ input, select, textarea {
 		#header .inner {
 			position: relative;
 			z-index: 1;
-			margin: 0;
+			margin: 20em;
 			display: inline-block;
 			vertical-align: middle;
+			min-height: 200vh;
 		}
 
 		#header header {
@@ -2342,10 +2343,11 @@ input, select, textarea {
 
 				#nav > ul > li > a, #nav > ul > li > span {
 					display: block;
-					color: inherit;
+					color: #000000;
 					text-decoration: none;
 					border: 0;
 					outline: 0;
+					font-size: xx-large;
 				}
 
 				#nav > ul > li > ul {
@@ -2408,14 +2410,15 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #fff;
+		background: #ff1616;
 		text-align: center;
 		padding: 4.5em 0 4.5em 0;
 		margin-bottom: 0;
 	}
 
-		#banner header > p {
+		#banner header > h2, p {
 			margin-bottom: 0;
+			color: #FFF;
 		}
 
 /* Content */
